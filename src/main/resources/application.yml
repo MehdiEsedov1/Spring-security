@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: spring project
+  profiles:
+    include:
+      - db
+      - mail
+server:
+  port: 8090

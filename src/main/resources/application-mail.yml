@@ -1,0 +1,12 @@
+spring:
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: i.s.m3132005.az@gmail.com
+    password: snmt lktg nubo fpwa
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
