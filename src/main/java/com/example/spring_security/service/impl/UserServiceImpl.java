@@ -36,6 +36,8 @@ public class UserServiceImpl implements UserService {
                 "Please confirm your registration by clicking the following link: " + confirmationLink);
 
         userRepo.save(userMapper.mapper(userRequest));
+
+
     }
 
     public void confirmUser(String token) {
